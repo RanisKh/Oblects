@@ -1,8 +1,8 @@
 import java.util.Objects;
 
 public class Author {
-    String firstname;
-    String lastname;
+    private String firstname;
+    private String lastname;
 
     public Author(String firstname, String lastname) {
         this.firstname = firstname;
@@ -39,7 +39,8 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Автор" + firstname + lastname;    }
+        return "Автор" + firstname + lastname;
+    }
 }
 
 
